@@ -1039,6 +1039,7 @@ function shuffle(array) {
 	}
 	return array;
 }
+shuffle(questions);
 
 function loadQuestion() {
 	const q = questions[currentQuestionIndex];
