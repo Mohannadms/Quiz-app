@@ -1195,6 +1195,7 @@ const questions = [
 
 let currentQuestionIndex = 0;
 let currentStreak = 0;
+let maxStreak = 0;
 let answered = false;
 
 const questionEl = document.getElementById("question");
@@ -1206,6 +1207,7 @@ const answerEls = [
 ];
 const feedbackEl = document.getElementById("feedback");
 const streakEl = document.getElementById("streak");
+const maxStreakEl = document.getElementById("max-streak");
 const progressEl = document.getElementById("progress");
 
 function shuffle(array) {
@@ -1243,6 +1245,7 @@ function loadQuestion() {
 				feedbackEl.textContent = "Correct!";
 				feedbackEl.classList.add("correct");
 				currentStreak++;
+				maxStreak = Math.max(maxStreak, currentStreak);
 			} else {
 				ansBox.classList.add("wrong");
 				feedbackEl.textContent = `Wrong! Correct answer: ${q.correctAnswer}`;
@@ -1259,6 +1262,7 @@ function loadQuestion() {
 			}
 			feedbackEl.classList.add("show");
 			streakEl.textContent = `🔥 Streak: ${currentStreak}`;
+			maxStreakEl.textContent = `🔥 Max Streak: ${maxStreak}`;
 
 			// allow clicking anywhere to go to next question
 			setTimeout(() => {
