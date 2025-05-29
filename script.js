@@ -1017,6 +1017,141 @@ const questions = [
 	},
 ];
 
+const questions = [
+	{
+		question:
+			"What is defined as splitting a market into smaller groups of buyers with distinct needs, characteristics, or behaviors who might require separate marketing strategies or mixes?",
+		correctAnswer: "Market segmentation",
+		wrongAnswers: ["Market targeting", "Differentiation", "Positioning"],
+	},
+	{
+		question:
+			"Which type of market segmentation divides the market into different geographical units such as nations, regions, states, counties, cities, or even neighborhoods?",
+		correctAnswer: "Geographic segmentation",
+		wrongAnswers: ["Demographic segmentation", "Psychographic segmentation", "Behavioral segmentation"],
+	},
+	{
+		question:
+			"Which type of market segmentation divides the market into groups based on variables such as age, gender, family size, family life cycle, income, occupation, education, religion, race, generation, and nationality?",
+		correctAnswer: "Demographic segmentation",
+		wrongAnswers: ["Geographic segmentation", "Psychographic segmentation", "Behavioral segmentation"],
+	},
+	{
+		question:
+			"Which type of demographic segmentation divides the market into different age and life-cycle groups?",
+		correctAnswer: "Age and life-cycle segmentation",
+		wrongAnswers: ["Gender segmentation", "Income segmentation", "Occasion segmentation"],
+	},
+	{
+		question:
+			"Which type of demographic segmentation divides a market into different groups based on gender?",
+		correctAnswer: "Gender segmentation",
+		wrongAnswers: ["Age and life-cycle segmentation", "Income segmentation", "Benefit segmentation"],
+	},
+	{
+		question:
+			"Which type of market segmentation divides buyers into different groups based on lifestyle or personality characteristics?",
+		correctAnswer: "Psychographic segmentation",
+		wrongAnswers: ["Geographic segmentation", "Demographic segmentation", "Behavioral segmentation"],
+	},
+	{
+		question:
+			"Which type of market segmentation divides buyers into groups based on their knowledge, attitudes, uses, or responses concerning a product?",
+		correctAnswer: "Behavioral segmentation",
+		wrongAnswers: ["Geographic segmentation", "Demographic segmentation", "Psychographic segmentation"],
+	},
+	{
+		question:
+			"Which type of behavioral segmentation divides buyers according to occasions when they get the idea to buy, actually make their purchase, or use the purchased item?",
+		correctAnswer: "Occasion segmentation",
+		wrongAnswers: ["Benefit segmentation", "User status", "Usage rate"],
+	},
+	{
+		question:
+			"Which type of behavioral segmentation divides buyers according to the different benefits that consumers seek from the product?",
+		correctAnswer: "Benefit segmentation",
+		wrongAnswers: ["Occasion segmentation", "User status", "Loyalty status"],
+	},
+	{
+		question:
+			"Which type of behavioral segmentation divides markets into groups of light, medium, and heavy product users?",
+		correctAnswer: "Usage rate",
+		wrongAnswers: ["User status", "Loyalty status", "Benefit segmentation"],
+	},
+		{
+		question:
+			"Which type of segmentation involves forming segments of consumers who have similar needs and buying behaviors even though they are located in different countries?",
+		correctAnswer: "Intermarket (cross-market) segmentation",
+		wrongAnswers: ["Geographic segmentation", "Demographic segmentation", "Psychographic segmentation"],
+	},
+	{
+		question:
+			"According to the sources, which of the following is *not* listed as a requirement for effective market segmentation?",
+		correctAnswer: "Adaptable", // Based on the five requirements mentioned in DQ 7-4 [4] (Measurable, Accessible, Substantial, Differentiable, Actionable)
+		wrongAnswers: ["Measurable", "Accessible", "Substantial"],
+	},
+	{
+		question:
+			"What process involves evaluating each market segment's attractiveness and selecting one or more segments to enter?",
+		correctAnswer: "Market targeting (targeting)",
+		wrongAnswers: ["Market segmentation", "Differentiation", "Positioning"],
+	},
+	{
+		question:
+			"Which market targeting strategy involves a firm deciding to ignore market segment differences and go after the whole market with one offer?",
+		correctAnswer: "Undifferentiated (mass) marketing",
+		wrongAnswers: ["Differentiated (segmented) marketing", "Concentrated (niche) marketing", "Micromarketing"],
+	},
+	{
+		question:
+			"Which market targeting strategy involves a firm deciding to target several market segments and designs separate offers for each?",
+		correctAnswer: "Differentiated (segmented) marketing",
+		wrongAnswers: ["Undifferentiated (mass) marketing", "Concentrated (niche) marketing", "Micromarketing"],
+	},
+	{
+		question:
+			"Which market targeting strategy involves a firm going after a large share of one or a few segments or niches?",
+		correctAnswer: "Concentrated (niche) marketing",
+		wrongAnswers: ["Undifferentiated (mass) marketing", "Differentiated (segmented) marketing", "Micromarketing"],
+	},
+	{
+		question:
+			"Which market targeting strategy involves tailoring products and marketing programs to the needs and wants of specific individuals and local customer segments?",
+		correctAnswer: "Micromarketing (local or individual marketing)",
+		wrongAnswers: ["Undifferentiated (mass) marketing", "Differentiated (segmented) marketing", "Concentrated (niche) marketing"],
+	},
+	{
+		question:
+			"What is the process of differentiating the market offering to create superior customer value?",
+		correctAnswer: "Differentiation",
+		wrongAnswers: ["Market segmentation", "Market targeting", "Positioning"],
+	},
+	{
+		question:
+			"What is the process of arranging for a market offering to occupy a clear, distinctive, and desirable place relative to competing products in the minds of target consumers?",
+		correctAnswer: "Positioning",
+		wrongAnswers: ["Market segmentation", "Market targeting", "Differentiation"],
+	},
+	{
+		question:
+			"According to the sources, what is the way a product is defined by consumers on important attributes—the place the product occupies in consumers' minds relative to competing products?",
+		correctAnswer: "Product position",
+		wrongAnswers: ["Value proposition", "Competitive advantage", "Market segment"],
+	},
+	{
+		question:
+			"What concept is described as an advantage over competitors gained by offering greater customer value, either by having lower prices or providing more benefits that justify higher prices?",
+		correctAnswer: "Competitive advantage",
+		wrongAnswers: ["Value proposition", "Market position", "Product differentiation"],
+	},
+	{
+		question:
+			"What is the term used to describe the set of benefits or values a company promises to deliver to consumers to satisfy their needs?",
+		correctAnswer: "Value proposition",
+		wrongAnswers: ["Product position", "Competitive advantage", "Marketing mix"],
+	}
+];
+
 let currentQuestionIndex = 0;
 let currentStreak = 0;
 let answered = false;
