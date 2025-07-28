@@ -10326,6 +10326,12 @@ const chapters = {
 	],
 };
 
+// turning off Java
+chapters[21] = [];
+chapters[22] = [];
+chapters[23] = [];
+chapters[24] = [];
+
 let questions = [];
 
 for (const chapter_index in chapters) {
